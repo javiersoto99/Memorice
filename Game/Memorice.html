@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Memorice.css">
+    <title>Memorice</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="datosPartida">
+            <div id="tiempo"><span>Tiempo: </span>0 s</div>
+            <div id="turnos"><span>Turnos: </span>0</div>
+        </div>
+        <div class="startGame">
+            <button id="startBtn">Jugar</button>
+        </div>
+        <div class="modoOscuro">
+            <label for="ChangeTheme">
+                <input type="checkbox" id="ChangeTheme"/> <span class="slide"></span>
+            </label>
+        </div>
+        
+
+        <div class="pares">
+            <select name="" id="paresSelect">
+                <option value=8 >8 Pares</option>
+                <option value=18 selected>18 Pares</option>
+                <option value=32>32 Pares</option>
+            </select>
+        </div>
+        <div class="records">
+            <button id="mostrarBtn">Récords</button>
+            <div class="tablaRecords">
+                <h3>Mejores Tiempos</h3>
+                <h4>8 pares</h4>
+                <table id="recordsTiempo8pares">
+                    <thead>
+                        <th>Fecha</th>
+                        <th>Tiempo</th>
+                    </thead>
+                    <tbody>
+                        <tr class="top1">
+                            <td>00/00/00</td>
+                            <td>0 s</td>
+                        </tr>
+                        <tr class="top2">
+                            <td>00/00/00</td>
+                            <td>0 s</td>
+                        </tr>
+                        <tr class="top3">
+                            <td>00/00/00</td>
+                            <td>0 s</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+                <h4>18 pares</h4>
+                <table id="recordsTiempo18pares">
+                    <thead>
+                        <th>Fecha</th>
+                        <th>Tiempo</th>
+                    </thead>
+                    <tbody>
+                        <tr class="top1">
+                            <td>00/00/00</td>
+                            <td>0 s</td>
+                        </tr>
+                        <tr class="top2">
+                            <td>00/00/00</td>
+                            <td>0 s</td>
+                        </tr>
+                        <tr class="top3">
+                            <td>00/00/00</td>
+                            <td>0 s</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+                <h4>32 pares</h4>
+                <table id="recordsTiempo32pares">
+                    <thead>
+                        <th>Fecha</th>
+                        <th>Tiempo</th>
+                    </thead>
+                    <tbody>
+                        <tr class="top1">
+                            <td>00/00/00</td>
+                            <td>0 s</td>
+                        </tr>
+                        <tr class="top2">
+                            <td>00/00/00</td>
+                            <td>0 s</td>
+                        </tr>
+                        <tr class="top3">
+                            <td>00/00/00</td>
+                            <td>0 s</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+
+                <h3>Mejores Turnos</h3>
+                <h4>8 pares</h4>
+                <table id="recordsTurnos8pares">
+                    <thead>
+                        <th>Fecha</th>
+                        <th>Turnos</th>
+                    </thead>
+                    <tbody>
+                        <tr class="top1">
+                            <td>00/00/00</td>
+                            <td>0</td>
+                        </tr>
+                        <tr class="top2">
+                            <td>00/00/00</td>
+                            <td>0</td>
+                        </tr>
+                        <tr class="top3">
+                            <td>00/00/00</td>
+                            <td>0</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+                <h4>18 pares</h4>
+                <table id="recordsTurnos18pares">
+                    <thead>
+                        <th>Fecha</th>
+                        <th>Turnos</th>
+                    </thead>
+                    <tbody>
+                        <tr class="top1">
+                            <td>00/00/00</td>
+                            <td>0</td>
+                        </tr>
+                        <tr class="top2">
+                            <td>00/00/00</td>
+                            <td>0</td>
+                        </tr>
+                        <tr class="top3">
+                            <td>00/00/00</td>
+                            <td>0</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+                <h4>32 pares</h4>
+                <table id="recordsTurnos32pares">
+                    <thead>
+                        <th>Fecha</th>
+                        <th>Turnos</th>
+                    </thead>
+                    <tbody>
+                        <tr class="top1">
+                            <td>00/00/00</td>
+                            <td>0</td>
+                        </tr>
+                        <tr class="top2">
+                            <td>00/00/00</td>
+                            <td>0</td>
+                        </tr>
+                        <tr class="top3">
+                            <td>00/00/00</td>
+                            <td>0</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="contenedorCartas">
+            
+        </div>
+        
+    </div>
+
+
+    
+    
+    <script src="Memorice.js"></script>
+</body>
+</html>
